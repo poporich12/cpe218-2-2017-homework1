@@ -282,8 +282,8 @@ class gui  extends JFrame{
                                                 if(isOperator(value[0])){
                                                 
                                                 inorder(selectedNode);  
-                                                sum=cal(selectedNode);
-                                                StrBuf.append("="+Integer.toString(sum));
+                                             //   sum=cal(selectedNode);
+                                             //   StrBuf.append("="+Integer.toString(sum));
                                                 
 						JOptionPane.showMessageDialog(null,StrBuf);
                                                 }
